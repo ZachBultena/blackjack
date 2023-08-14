@@ -26,7 +26,31 @@ class Deck:
 
     def topcard(self):
         return self.cards.pop(0)
+    
+    """
+    todo
+    
+    deal
+    """
 
-deck1 = Deck()
+class User:
+    def __init__(self, name, balance):
+        self.name = name
+        self.balance = balance
+        self.hand = []
 
-deck1.show_deck()
+    """
+    todo
+
+    hit
+
+    show hand
+
+    count
+
+    show count 
+    """
+        
+
+Player1 = User("Zach", 10000)
+print(Player1.name, Player1.balance)
